@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Anime-Fights.css">
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Fights</a></li>    
+                <li><a href="#">Forums</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="fights">
+            <script>
+                function sayHello(who)  {
+                    document.write("Hello, " + who);
+                }
+            </script>
+            <script>
+                sayHello("Anime Fight Fans!");
+            </script>
+            <p>Today's matchup is between two of the best soldiers in fantasy fiction. Konami's Solid Snake vs. DC Comics's Deathstroke!</p>
+        </div>
+        <div class="fighter1">
+            <h1>Solid Snake</h1>
+            <img src="http://vignette4.wikia.nocookie.net/p__/images/5/5e/SOLID_SNAKE_2.png/revision/latest?cb=20140318042653&path-prefix=protagonist" alt="Solid Snake" width="400" height="600">
+            <br>
+            <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <h2 style="text-align: center";>vs.</h2>
+        <div class="fighter2">
+            <h1>Deathstroke</h1>
+            <img src="http://66.media.tumblr.com/b6e6e4d49596a9f6c171ba0b4d21b4ac/tumblr_nfy5y7juz71s2lswpo1_1280.jpg" alt="Deathstroke" width="400" height="600">
+            <br>
+            <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="poll">
+            <h1>Who do you think will win this battle?</h1>
+            <form>
+                <label for="Solid Snake">Solid Snake</label>
+                <input type="radio" name="winner">
+                <br>
+                <label for="Deathstroke">Deathstroke</label>
+                <input type="radio" name="winner">
+                <br>
+                <input type="submit" value="vote">
+            </form>
+            <br>
+            <script>
+                function yourThoughts() {
+                    document.write("Tell us what matchup you'd like to see next!");
+                }
+            </script>
+            <script>
+                yourThoughts();
+            </script> 
+        </div>
+    </div>
+</body>
+</html>
